@@ -3,10 +3,10 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Morgan — Portfolio 2026" },
-      { name: "description", content: "Product designer & engineer crafting calm, considered interfaces." },
-      { property: "og:title", content: "Alex Morgan — Portfolio 2026" },
-      { property: "og:description", content: "Product designer & engineer crafting calm, considered interfaces." },
+      { title: "Djamila Bekhedidja — Portfolio 2026" },
+      { name: "description", content: "Independent product designer & engineer crafting calm, considered interfaces." },
+      { property: "og:title", content: "Djamila Bekhedidja — Portfolio 2026" },
+      { property: "og:description", content: "Independent product designer & engineer crafting calm, considered interfaces." },
     ],
   }),
   component: Index,
@@ -47,9 +47,9 @@ function Index() {
               Portfolio 2026
             </span>
 
-            <h1 className="font-display text-6xl font-bold leading-[0.95] tracking-tight text-ink sm:text-7xl lg:text-8xl">
-              <span className="block">Alex</span>
-              <span className="block outline-text">Morgan</span>
+            <h1 className="font-display text-5xl font-normal leading-[1] tracking-tight text-ink sm:text-6xl lg:text-7xl">
+              <span className="block">Djamila</span>
+              <span className="block italic outline-text">Bekhedidja</span>
             </h1>
 
             <p className="mt-8 max-w-md border-l-2 border-emerald pl-4 text-base leading-relaxed text-muted-foreground">
@@ -76,7 +76,7 @@ function Index() {
               />
               <div className="absolute inset-3 rounded-full border border-emerald/20" />
               <div className="relative grid h-52 w-52 place-items-center rounded-full bg-gradient-to-br from-ink to-ink/80 sm:h-60 sm:w-60">
-                <span className="font-display text-5xl font-bold text-background">AM</span>
+                <span className="font-display text-5xl italic text-background">Db</span>
                 <span className="absolute bottom-3 right-3 h-4 w-4 rounded-full border-2 border-background bg-emerald" />
               </div>
             </div>
