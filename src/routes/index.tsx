@@ -3,10 +3,10 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Morgan — Portfolio 2026" },
-      { name: "description", content: "Product designer & engineer crafting calm, considered interfaces." },
-      { property: "og:title", content: "Alex Morgan — Portfolio 2026" },
-      { property: "og:description", content: "Product designer & engineer crafting calm, considered interfaces." },
+      { title: "Djamila Bekhedidja — Portfolio 2026" },
+      { name: "description", content: "Independent product designer & engineer crafting calm, considered interfaces." },
+      { property: "og:title", content: "Djamila Bekhedidja — Portfolio 2026" },
+      { property: "og:description", content: "Independent product designer & engineer crafting calm, considered interfaces." },
     ],
   }),
   component: Index,
