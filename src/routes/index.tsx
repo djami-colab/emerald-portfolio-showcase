@@ -109,19 +109,24 @@ function Index() {
         </section>
 
         {/* Bottom bar */}
-        <footer className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 border-t border-border pt-6">
-          <div className="flex min-w-0 flex-wrap items-center gap-2">
-            <span className="mr-1 text-xs uppercase tracking-widest text-muted-foreground">Stack</span>
+        <footer className="flex flex-col gap-5 border-t border-ink/10 pt-6">
+          <div className="flex items-center justify-between">
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-ink/40">Stack</span>
+            <span className="flex items-center gap-1.5 text-[10px] font-medium text-ink/60">
+              Lisbon <span className="h-1 w-1 rounded-full bg-emerald" /> Remote
+            </span>
+          </div>
+          <div className="flex flex-wrap gap-2">
             {skills.map((s) => (
-              <span
+              <div
                 key={s}
-                className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-ink transition-colors hover:border-emerald hover:text-emerald"
+                className="group flex items-center gap-2 rounded-full border border-emerald/40 bg-emerald-soft px-3.5 py-1.5 shadow-[inset_0_1px_1px_rgba(255,255,255,0.7),0_2px_4px_rgba(58,30,42,0.04)] transition-all active:scale-95"
               >
-                {s}
-              </span>
+                <span className="h-1.5 w-1.5 rounded-full bg-ink/20 transition-colors group-hover:bg-emerald" />
+                <span className="font-display text-[13px] font-semibold italic text-ink">{s}</span>
+              </div>
             ))}
           </div>
-          <span className="shrink-0 text-xs text-muted-foreground">Lisbon · Remote</span>
         </footer>
       </div>
     </main>
