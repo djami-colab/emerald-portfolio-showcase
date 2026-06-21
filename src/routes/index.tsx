@@ -3,9 +3,9 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Djamila Bekhedidja — Portfolio 2026" },
+      { title: "Alex Morgan — Portfolio 2026" },
       { name: "description", content: "Product designer & engineer crafting calm, considered interfaces." },
-      { property: "og:title", content: "Djamila Bekhedidja — Portfolio 2026" },
+      { property: "og:title", content: "Alex Morgan — Portfolio 2026" },
       { property: "og:description", content: "Product designer & engineer crafting calm, considered interfaces." },
     ],
   }),
@@ -30,7 +30,7 @@ function Index() {
             <span className="relative inline-flex h-2.5 w-2.5 shrink-0">
               <span className="absolute inset-0 rounded-full bg-emerald" style={{ animation: "var(--animate-pulse-dot)" }} />
             </span>
-            <span className="truncate font-display text-xl italic tracking-tight text-ink">djamila</span>
+            <span className="truncate font-display text-lg font-bold tracking-tight text-ink">alex.morgan</span>
           </div>
           <div className="flex shrink-0 items-center gap-2 rounded-full border border-emerald/40 bg-emerald-soft/40 px-3 py-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald" style={{ animation: "var(--animate-pulse-dot)" }} />
@@ -47,9 +47,9 @@ function Index() {
               Portfolio 2026
             </span>
 
-            <h1 className="font-display text-6xl leading-[0.95] tracking-tight text-ink sm:text-7xl lg:text-[7.5rem]">
-              <span className="block italic">Djamila</span>
-              <span className="block outline-text">Bekhedidja</span>
+            <h1 className="font-display text-6xl font-bold leading-[0.95] tracking-tight text-ink sm:text-7xl lg:text-8xl">
+              <span className="block">Alex</span>
+              <span className="block outline-text">Morgan</span>
             </h1>
 
             <p className="mt-8 max-w-md border-l-2 border-emerald pl-4 text-base leading-relaxed text-muted-foreground">
@@ -75,8 +75,8 @@ function Index() {
                 style={{ animation: "var(--animate-spin-slow)" }}
               />
               <div className="absolute inset-3 rounded-full border border-emerald/20" />
-              <div className="relative grid h-52 w-52 place-items-center rounded-full bg-gradient-to-br from-[oklch(0.35_0.05_340)] to-ink sm:h-60 sm:w-60">
-                <span className="font-display text-6xl italic text-background">Db</span>
+              <div className="relative grid h-52 w-52 place-items-center rounded-full bg-gradient-to-br from-ink to-ink/80 sm:h-60 sm:w-60">
+                <span className="font-display text-5xl font-bold text-background">AM</span>
                 <span className="absolute bottom-3 right-3 h-4 w-4 rounded-full border-2 border-background bg-emerald" />
               </div>
             </div>
