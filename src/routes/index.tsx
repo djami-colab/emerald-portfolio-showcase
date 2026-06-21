@@ -75,8 +75,16 @@ function Index() {
                 style={{ animation: "var(--animate-spin-slow)" }}
               />
               <div className="absolute inset-3 rounded-full border border-emerald/20" />
-              <div className="relative grid h-52 w-52 place-items-center rounded-full bg-gradient-to-br from-ink to-ink/80 sm:h-60 sm:w-60">
-                <span className="font-display text-5xl italic text-background">Db</span>
+              <div className="relative grid h-52 w-52 place-items-center rounded-full bg-gradient-to-br from-ink to-ink/85 sm:h-60 sm:w-60">
+                <svg viewBox="0 0 100 100" className="h-24 w-24 text-emerald" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  {/* abstract bloom / design mark */}
+                  <circle cx="50" cy="50" r="6" fill="currentColor" />
+                  <path d="M50 14 C58 30 58 38 50 50 C42 38 42 30 50 14 Z" />
+                  <path d="M50 86 C42 70 42 62 50 50 C58 62 58 70 50 86 Z" />
+                  <path d="M14 50 C30 42 38 42 50 50 C38 58 30 58 14 50 Z" />
+                  <path d="M86 50 C70 58 62 58 50 50 C62 42 70 42 86 50 Z" />
+                  <circle cx="50" cy="50" r="34" strokeDasharray="2 4" opacity="0.4" />
+                </svg>
                 <span className="absolute bottom-3 right-3 h-4 w-4 rounded-full border-2 border-background bg-emerald" />
               </div>
             </div>
