@@ -30,7 +30,7 @@ function Index() {
             <span className="relative inline-flex h-2.5 w-2.5 shrink-0">
               <span className="absolute inset-0 rounded-full bg-emerald" style={{ animation: "var(--animate-pulse-dot)" }} />
             </span>
-            <span className="truncate font-display text-lg font-bold tracking-tight text-ink">alex.morgan</span>
+            <span className="truncate font-display text-lg font-bold italic tracking-tight text-ink">djamila.</span>
           </div>
           <div className="flex shrink-0 items-center gap-2 rounded-full border border-emerald/40 bg-emerald-soft/40 px-3 py-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald" style={{ animation: "var(--animate-pulse-dot)" }} />
